@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1BB7595-0410-48B0-9C42-490F0B12221A}"
 	ProjectSection(SolutionItems) = preProject
 		..\.appveyor.yml = ..\.appveyor.yml
+		..\.gitignore = ..\.gitignore
 		..\nuspec\nuget\Cake.Dart.nuspec = ..\nuspec\nuget\Cake.Dart.nuspec
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
