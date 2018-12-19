@@ -46,7 +46,6 @@ namespace Cake.Dart
         /// Runs Dart
         /// </summary>
         /// <param name="context">The context.</param>
-        /// <param name="vmOptions">VM options</param>
         /// <param name="dartScriptFile">File to execute.</param>
         [CakeMethodAlias]
         public static void DartScript(this ICakeContext context, FilePath dartScriptFile) =>

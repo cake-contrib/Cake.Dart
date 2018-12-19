@@ -8,7 +8,6 @@ namespace Cake.Dart
     /// <summary>
     /// Dart tool.
     /// </summary>
-    /// <typeparam name="TSettings">The settings type.</typeparam>
     public class DartTool : Tool<DartSettings>
     {
         readonly ICakeEnvironment environment;
@@ -33,11 +32,11 @@ namespace Cake.Dart
         }
 
         /// <summary>
-        /// Runs given <paramref name="command"/> using given <paramref name="settings"/>.
+        /// Runs given <paramref name="dartScriptFile"/> file using <paramref name="vmOptions"/> and <paramref name="settings"/>.
         /// </summary>
-        /// <param name="command">The command.</param>
+        /// <param name="vmOptions">VM options</param>
+        /// <param name="dartScriptFile">Script file to run.</param>
         /// <param name="settings">The settings.</param>
-        /// <param name="additional">Additional arguments.</param>
         public void Run(Dictionary<string, object> vmOptions, FilePath dartScriptFile, DartSettings settings)
         {
             Run(settings, GetArguments(vmOptions, dartScriptFile, settings));

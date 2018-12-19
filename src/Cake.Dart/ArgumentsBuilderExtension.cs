@@ -10,14 +10,7 @@ namespace Cake.Dart
     /// </summary>
     public static class ArgumentsBuilderExtension
     {
-        /// <summary>
-        /// Appends all arguments from <paramref name="settings"/> and <paramref name="arguments"/>.
-        /// </summary>
-        /// <param name="builder"></param>
-        /// <param name="command"></param>
-        /// <param name="settings">The settings.</param>
-        /// <param name="arguments"></param>
-        public static void AppendAll(this ProcessArgumentBuilder builder, ICakeEnvironment cakeEnvironment, 
+        internal static void AppendAll(this ProcessArgumentBuilder builder, ICakeEnvironment cakeEnvironment, 
             Dictionary<string, object> vmOptions, FilePath dartScriptFile, DartSettings settings)
         {
             if (builder == null)

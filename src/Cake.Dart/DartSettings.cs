@@ -21,7 +21,7 @@ namespace Cake.Dart
         /// </summary>
         public FilePath Packages { get; set; }
         /// <summary>
-        /// Sets the upper limit of old space to <num> MB.
+        /// Sets the upper limit of old space to num MB.
         /// </summary>
         public int? OldGenHeapSize { get; set; }
 
@@ -67,11 +67,5 @@ namespace Cake.Dart
         /// The path to a cache directory containing the trusted root certificates to use for secure socket connections.
         /// </summary>
         public FilePath RootCertsCache { get; set; }
-    }
-
-    public enum SnapshotKind
-    {
-        Kernel,
-        AppJit
     }
 }
