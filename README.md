@@ -29,7 +29,7 @@ To use the addin add it to Cake call the aliases and configure any settings you 
 Task("Dart")
 	.Does(() => {
 		// or more containers at once
-		Dart(File("some.dart"), new DartSettings{ PauseIsolatesOnExit = true });
+		DartScript(File("some.dart"), new DartSettings{ PauseIsolatesOnExit = true });
 	)};
 ```
 Other commands follow same convention.

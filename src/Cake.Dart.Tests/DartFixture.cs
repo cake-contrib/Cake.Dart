@@ -39,7 +39,7 @@ namespace Cake.Dart.Tests
         }
         protected override void RunTool()
         {
-            this.Dart(VmOptions, ScriptFile, Settings);
+            this.DartScript(VmOptions, ScriptFile, Settings);
         }
     }
 }

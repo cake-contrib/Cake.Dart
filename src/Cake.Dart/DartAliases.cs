@@ -20,7 +20,7 @@ namespace Cake.Dart
         /// <param name="dartScriptFile">File to execute.</param>
         /// <param name="settings">The settings.</param>
         [CakeMethodAlias]
-        public static void Dart(this ICakeContext context, Dictionary<string, object> vmOptions, FilePath dartScriptFile, DartSettings settings)
+        public static void DartScript(this ICakeContext context, Dictionary<string, object> vmOptions, FilePath dartScriptFile, DartSettings settings)
         {
             if (context == null)
             {
@@ -40,8 +40,8 @@ namespace Cake.Dart
         /// <param name="dartScriptFile">File to execute.</param>
         /// <param name="settings">The settings.</param>
         [CakeMethodAlias]
-        public static void Dart(this ICakeContext context, FilePath dartScriptFile, DartSettings settings) =>
-            Dart(context, vmOptions: null, dartScriptFile, settings);
+        public static void DartScript(this ICakeContext context, FilePath dartScriptFile, DartSettings settings) =>
+            DartScript(context, vmOptions: null, dartScriptFile, settings);
         /// <summary>
         /// Runs Dart
         /// </summary>
@@ -49,8 +49,8 @@ namespace Cake.Dart
         /// <param name="vmOptions">VM options</param>
         /// <param name="dartScriptFile">File to execute.</param>
         [CakeMethodAlias]
-        public static void Dart(this ICakeContext context, FilePath dartScriptFile) =>
-            Dart(context, vmOptions: null, dartScriptFile, settings: null);
+        public static void DartScript(this ICakeContext context, FilePath dartScriptFile) =>
+            DartScript(context, vmOptions: null, dartScriptFile, settings: null);
 
     }
 }

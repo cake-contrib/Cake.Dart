@@ -1,6 +1,5 @@
 ﻿using Cake.Core.IO;
 using Cake.Core.Tooling;
-using System.Collections.Generic;
 
 namespace Cake.Dart
 {
