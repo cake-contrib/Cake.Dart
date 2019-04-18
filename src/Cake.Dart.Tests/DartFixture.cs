@@ -1,4 +1,5 @@
 ﻿using Cake.Core;
+using Cake.Core.Configuration;
 using Cake.Core.Diagnostics;
 using Cake.Core.IO;
 using Cake.Core.Tooling;
@@ -24,6 +25,7 @@ namespace Cake.Dart.Tests
         public ICakeDataResolver Data => throw new NotImplementedException();
         public FilePath ScriptFile { get; set; }
         public Dictionary<string, object> VmOptions { get; set; }
+        ICakeConfiguration ICakeContext.Configuration => throw new NotImplementedException();
         public DartFixture(): base("dart")
         {
             Tools = Substitute.For<IToolLocator>();
