@@ -1,7 +1,7 @@
-﻿using Cake.Core;
-using Cake.Core.IO;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Cake.Core;
+using Cake.Core.IO;
 
 namespace Cake.Dart
 {
