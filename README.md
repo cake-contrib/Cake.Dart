@@ -8,9 +8,11 @@ A Cake AddIn that extends Cake with [Dart](https://www.dartlang.org/) compiler c
 
 ## Important
 
-0.2.0 Supports Cake 0.33+
+1.0.0 References Cake 1.0.0
 
-0.1.0 Supports Cake 0.28+ and .NET Standard 2.0.
+0.2.0 References Cake 0.33
+
+0.1.0 References Cake 0.28 and .NET Standard 2.0.
 
 ## Including addin
 Including addin in cake script is easy.
