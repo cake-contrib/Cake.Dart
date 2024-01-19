@@ -33,7 +33,7 @@ branches:
   only:
     - develop
     - master
-    - feature/.*/
+    - /feature/.*/
     - /release/.*/
     - /hotfix/.*/
 
