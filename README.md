@@ -4,9 +4,16 @@ A Cake AddIn that extends Cake with [Dart](https://www.dartlang.org/) compiler c
 
 [![cakebuild.net](https://img.shields.io/badge/WWW-cakebuild.net-blue.svg)](http://cakebuild.net/)
 [![NuGet](https://img.shields.io/nuget/v/Cake.Dart.svg)](https://www.nuget.org/packages/Cake.Dart)
-[![Build status](https://ci.appveyor.com/api/projects/status/vi07dth3d1gek7ak?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-dart)
+
+|Branch|Status|
+|------|------|
+|Master|[![Build status](https://ci.appveyor.com/api/projects/status/github/cake-contrib/Cake.Dart?branch=master&svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-dart)|
+|Develop|[![Build status](https://ci.appveyor.com/api/projects/status/github/cake-contrib/Cake.Dart?branch=develop&svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-dart)|
+
 
 ## Important
+
+1.1.0 References Cake 4.0.0 and supports .net6, 7 and 8
 
 1.0.0 References Cake 1.0.0
 
